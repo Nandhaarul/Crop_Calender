@@ -80,6 +80,7 @@ FastAPI Backend
       +--> SQLite Database
              +--> Calendars
              +--> Progress History
+             '''
 Tech Stack
 Frontend
 - React
