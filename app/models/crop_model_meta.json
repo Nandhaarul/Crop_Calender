@@ -1,0 +1,119 @@
+{
+  "available": true,
+  "reason": null,
+  "reason_detail": "Crop-fit model trained successfully and passed reliability gates.",
+  "training_source": "crop_fit_dataset_prepared.csv",
+  "supported_crops": [
+    "Rice",
+    "Wheat",
+    "Maize",
+    "Cotton",
+    "Sugarcane",
+    "Tomato"
+  ],
+  "app_supported_crops": [
+    "Rice",
+    "Wheat",
+    "Maize",
+    "Cotton",
+    "Sugarcane",
+    "Potato",
+    "Tomato"
+  ],
+  "excluded_app_crops": [
+    "Potato"
+  ],
+  "represented_labels": [
+    "Cotton",
+    "Maize",
+    "Rice",
+    "Sugarcane",
+    "Tomato",
+    "Wheat"
+  ],
+  "class_distribution": {
+    "Cotton": 1000,
+    "Maize": 1000,
+    "Rice": 1000,
+    "Sugarcane": 1000,
+    "Tomato": 1000,
+    "Wheat": 1000
+  },
+  "dataset_rows_used": 6000,
+  "numeric_features": [
+    "n",
+    "p",
+    "k",
+    "temperature",
+    "humidity",
+    "ph"
+  ],
+  "categorical_features": [
+    "season",
+    "soil_type"
+  ],
+  "min_rows_per_class": 150,
+  "min_holdout_accuracy_pct": 70.0,
+  "min_cv_accuracy_pct": 70.0,
+  "min_prediction_confidence_pct": 60.0,
+  "min_probability_margin_pct": 8.0,
+  "holdout_accuracy_pct": 99.2,
+  "holdout_macro_f1_pct": 99.2,
+  "holdout_balanced_accuracy_pct": 99.2,
+  "cv_accuracy_mean_pct": 99.0,
+  "cv_macro_f1_mean_pct": 99.0,
+  "top_feature_importances": [
+    {
+      "feature": "num__k",
+      "importance_pct": 17.23
+    },
+    {
+      "feature": "num__n",
+      "importance_pct": 11.73
+    },
+    {
+      "feature": "num__humidity",
+      "importance_pct": 10.58
+    },
+    {
+      "feature": "cat__season_Kharif",
+      "importance_pct": 10.24
+    },
+    {
+      "feature": "cat__season_Zaid",
+      "importance_pct": 10.14
+    },
+    {
+      "feature": "cat__season_Rabi",
+      "importance_pct": 8.08
+    },
+    {
+      "feature": "cat__soil_type_Sandy",
+      "importance_pct": 7.33
+    },
+    {
+      "feature": "num__p",
+      "importance_pct": 7.29
+    },
+    {
+      "feature": "num__ph",
+      "importance_pct": 7.22
+    },
+    {
+      "feature": "num__temperature",
+      "importance_pct": 4.49
+    },
+    {
+      "feature": "cat__soil_type_Loamy",
+      "importance_pct": 4.3
+    },
+    {
+      "feature": "cat__soil_type_Clay",
+      "importance_pct": 1.06
+    },
+    {
+      "feature": "cat__soil_type_Silt",
+      "importance_pct": 0.31
+    }
+  ]
+}

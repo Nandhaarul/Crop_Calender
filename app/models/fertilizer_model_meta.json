@@ -1,0 +1,167 @@
+{
+  "available": true,
+  "reason": null,
+  "reason_detail": "Fertilizer model passed reliability gates. Predictions are still withheld for weak classes or low-confidence cases.",
+  "training_source": "Fertilizer_dataset.csv",
+  "feature_columns": [
+    "Soil_pH",
+    "Soil_Moisture",
+    "Organic_Carbon",
+    "Electrical_Conductivity",
+    "Nitrogen_Level",
+    "Phosphorus_Level",
+    "Potassium_Level",
+    "Temperature",
+    "Humidity",
+    "Rainfall",
+    "Fertilizer_Used_Last_Season",
+    "Yield_Last_Season",
+    "Soil_Type_Clay",
+    "Soil_Type_Loamy",
+    "Soil_Type_Sandy",
+    "Soil_Type_Silt",
+    "Crop_Type_Cotton",
+    "Crop_Type_Maize",
+    "Crop_Type_Potato",
+    "Crop_Type_Rice",
+    "Crop_Type_Sugarcane",
+    "Crop_Type_Tomato",
+    "Crop_Type_Wheat",
+    "Crop_Growth_Stage_Flowering",
+    "Crop_Growth_Stage_Harvest",
+    "Crop_Growth_Stage_Sowing",
+    "Crop_Growth_Stage_Vegetative",
+    "Season_Kharif",
+    "Season_Rabi",
+    "Season_Zaid",
+    "Irrigation_Type_Canal",
+    "Irrigation_Type_Drip",
+    "Irrigation_Type_Rainfed",
+    "Irrigation_Type_Sprinkler",
+    "Previous_Crop_Cotton",
+    "Previous_Crop_Maize",
+    "Previous_Crop_Potato",
+    "Previous_Crop_Rice",
+    "Previous_Crop_Sugarcane",
+    "Previous_Crop_Tomato",
+    "Previous_Crop_Wheat",
+    "Region_Central",
+    "Region_East",
+    "Region_North",
+    "Region_South",
+    "Region_West"
+  ],
+  "model_classes": [
+    "Compost",
+    "DAP",
+    "MOP",
+    "NPK",
+    "SSP",
+    "Urea",
+    "Zinc Sulphate"
+  ],
+  "family_model_classes": [
+    "Balanced",
+    "Micronutrient",
+    "Nitrogen",
+    "Organic",
+    "Phosphorus",
+    "Potassium"
+  ],
+  "reliable_classes": [
+    "Compost",
+    "DAP",
+    "MOP",
+    "NPK",
+    "Urea",
+    "Zinc Sulphate"
+  ],
+  "unreliable_classes": [
+    "SSP"
+  ],
+  "fertilizer_family_map": {
+    "Urea": "Nitrogen",
+    "DAP": "Phosphorus",
+    "SSP": "Phosphorus",
+    "MOP": "Potassium",
+    "NPK": "Balanced",
+    "Compost": "Organic",
+    "Zinc Sulphate": "Micronutrient"
+  },
+  "family_fallback_product_map": {
+    "Nitrogen": "Urea",
+    "Phosphorus": "DAP",
+    "Potassium": "MOP",
+    "Balanced": "NPK",
+    "Organic": "Compost",
+    "Micronutrient": "Zinc Sulphate"
+  },
+  "per_class_summary": {
+    "Compost": {
+      "precision_pct": 84.7,
+      "recall_pct": 80.9,
+      "f1_pct": 82.8,
+      "support": 199
+    },
+    "DAP": {
+      "precision_pct": 99.4,
+      "recall_pct": 92.3,
+      "f1_pct": 95.7,
+      "support": 584
+    },
+    "MOP": {
+      "precision_pct": 77.7,
+      "recall_pct": 89.0,
+      "f1_pct": 83.0,
+      "support": 282
+    },
+    "NPK": {
+      "precision_pct": 70.9,
+      "recall_pct": 74.2,
+      "f1_pct": 72.5,
+      "support": 128
+    },
+    "SSP": {
+      "precision_pct": 5.3,
+      "recall_pct": 2.7,
+      "f1_pct": 3.6,
+      "support": 37
+    },
+    "Urea": {
+      "precision_pct": 100.0,
+      "recall_pct": 93.2,
+      "f1_pct": 96.5,
+      "support": 620
+    },
+    "Zinc Sulphate": {
+      "precision_pct": 59.3,
+      "recall_pct": 84.7,
+      "f1_pct": 69.8,
+      "support": 150
+    }
+  },
+  "holdout_accuracy_pct": 87.6,
+  "holdout_macro_f1_pct": 72.0,
+  "holdout_balanced_accuracy_pct": 73.9,
+  "family_holdout_accuracy_pct": 88.5,
+  "family_holdout_macro_f1_pct": 85.9,
+  "avg_top_confidence_pct": 77.2,
+  "avg_probability_margin_pct": 68.3,
+  "family_avg_top_confidence_pct": 63.8,
+  "min_holdout_accuracy_pct": 80.0,
+  "min_holdout_macro_f1_pct": 65.0,
+  "min_prediction_confidence_pct": 55.0,
+  "min_probability_margin_pct": 10.0,
+  "min_class_precision_pct": 45.0,
+  "min_class_recall_pct": 45.0,
+  "class_probability_indexes": {
+    "Compost": 0,
+    "DAP": 1,
+    "MOP": 2,
+    "NPK": 3,
+    "SSP": 4,
+    "Urea": 5,
+    "Zinc Sulphate": 6
+  },
+  "target_resample_size": 1126
+}

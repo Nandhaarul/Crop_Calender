@@ -1,0 +1,70 @@
+{
+  "raw_input_path": "C:\\Users\\Nandha Arul\\Desktop\\College\\8th SEMESTER\\crop_calender_backend\\app\\data\\raw\\crop_fit_dataset.csv",
+  "prepared_output_path": "C:\\Users\\Nandha Arul\\Desktop\\College\\8th SEMESTER\\crop_calender_backend\\app\\data\\processed\\crop_fit_dataset_prepared.csv",
+  "original_rows": 57000,
+  "prepared_rows": 6000,
+  "original_columns": [
+    "CROPS",
+    "TYPE_OF_CROP",
+    "SOIL",
+    "SEASON",
+    "SOWN",
+    "HARVESTED",
+    "WATER_SOURCE",
+    "SOIL_PH",
+    "SOIL_PH_HIGH",
+    "CROPDURATION",
+    "CROPDURATION_MAX",
+    "TEMP",
+    "MAX_TEMP",
+    "WATERREQUIRED",
+    "WATERREQUIRED_MAX",
+    "RELATIVE_HUMIDITY",
+    "RELATIVE_HUMIDITY_MAX",
+    "N",
+    "N_MAX",
+    "P",
+    "P_MAX",
+    "K",
+    "K_MAX"
+  ],
+  "prepared_columns": [
+    "crop",
+    "season",
+    "soil_type",
+    "sown_month",
+    "harvested_month",
+    "water_source",
+    "ph",
+    "crop_duration_days",
+    "temperature",
+    "humidity",
+    "n",
+    "p",
+    "k"
+  ],
+  "supported_crops": [
+    "Rice",
+    "Wheat",
+    "Maize",
+    "Cotton",
+    "Sugarcane",
+    "Potato",
+    "Tomato"
+  ],
+  "class_distribution": {
+    "Cotton": 1000,
+    "Maize": 1000,
+    "Rice": 1000,
+    "Sugarcane": 1000,
+    "Tomato": 1000,
+    "Wheat": 1000
+  },
+  "notes": [
+    "Raw dataset was normalized to trainer-friendly schema.",
+    "Well-drained and friable soil labels were mapped into Loamy so wheat rows are preserved honestly.",
+    "Rainfall and region were not created because they do not exist in the raw file.",
+    "Prepared dataset currently supports inference features: crop, season, soil_type, N, P, K, temperature, humidity, ph.",
+    "Potato is still absent as a true crop label in the raw dataset; sweet potato was not remapped to potato."
+  ]
+}

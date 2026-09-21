@@ -1,0 +1,103 @@
+    {
+  "engine": "profile_based_v1",
+  "crops": {
+    "Rice": {
+      "ranges": {
+        "N": { "min": 25, "ideal_min": 70, "ideal_max": 110, "max": 140 },
+        "P": { "min": 10, "ideal_min": 30, "ideal_max": 60, "max": 90 },
+        "K": { "min": 10, "ideal_min": 30, "ideal_max": 55, "max": 90 },
+        "temperature": { "min": 20, "ideal_min": 24, "ideal_max": 32, "max": 38 },
+        "humidity": { "min": 45, "ideal_min": 70, "ideal_max": 92, "max": 100 },
+        "ph": { "min": 4.5, "ideal_min": 5.5, "ideal_max": 7.0, "max": 8.2 },
+        "rainfall": { "min": 40, "ideal_min": 150, "ideal_max": 320, "max": 500 }
+      },
+      "season_scores": { "Kharif": 1.0, "Rabi": 0.6, "Zaid": 0.5 },
+      "soil_scores": { "Clay": 1.0, "Loamy": 0.85, "Silt": 0.8, "Sandy": 0.45 },
+      "region_scores": { "South": 1.0, "East": 1.0, "Central": 0.9, "North": 0.8, "West": 0.7 }
+    },
+    "Wheat": {
+      "ranges": {
+        "N": { "min": 20, "ideal_min": 60, "ideal_max": 100, "max": 130 },
+        "P": { "min": 10, "ideal_min": 25, "ideal_max": 50, "max": 80 },
+        "K": { "min": 10, "ideal_min": 20, "ideal_max": 45, "max": 80 },
+        "temperature": { "min": 8, "ideal_min": 15, "ideal_max": 25, "max": 32 },
+        "humidity": { "min": 20, "ideal_min": 40, "ideal_max": 65, "max": 85 },
+        "ph": { "min": 5.0, "ideal_min": 6.0, "ideal_max": 7.5, "max": 8.5 },
+        "rainfall": { "min": 5, "ideal_min": 30, "ideal_max": 120, "max": 200 }
+      },
+      "season_scores": { "Kharif": 0.35, "Rabi": 1.0, "Zaid": 0.25 },
+      "soil_scores": { "Clay": 0.75, "Loamy": 1.0, "Silt": 0.9, "Sandy": 0.55 },
+      "region_scores": { "South": 0.55, "East": 0.7, "Central": 0.85, "North": 1.0, "West": 0.8 }
+    },
+    "Maize": {
+      "ranges": {
+        "N": { "min": 20, "ideal_min": 55, "ideal_max": 100, "max": 135 },
+        "P": { "min": 10, "ideal_min": 20, "ideal_max": 50, "max": 80 },
+        "K": { "min": 10, "ideal_min": 20, "ideal_max": 50, "max": 85 },
+        "temperature": { "min": 15, "ideal_min": 20, "ideal_max": 30, "max": 36 },
+        "humidity": { "min": 25, "ideal_min": 50, "ideal_max": 75, "max": 92 },
+        "ph": { "min": 5.0, "ideal_min": 5.8, "ideal_max": 7.2, "max": 8.2 },
+        "rainfall": { "min": 15, "ideal_min": 60, "ideal_max": 180, "max": 280 }
+      },
+      "season_scores": { "Kharif": 1.0, "Rabi": 0.75, "Zaid": 0.8 },
+      "soil_scores": { "Clay": 0.7, "Loamy": 1.0, "Silt": 0.8, "Sandy": 0.8 },
+      "region_scores": { "South": 0.9, "East": 0.9, "Central": 1.0, "North": 0.85, "West": 0.85 }
+    },
+    "Cotton": {
+      "ranges": {
+        "N": { "min": 20, "ideal_min": 50, "ideal_max": 90, "max": 125 },
+        "P": { "min": 10, "ideal_min": 20, "ideal_max": 45, "max": 75 },
+        "K": { "min": 15, "ideal_min": 35, "ideal_max": 70, "max": 110 },
+        "temperature": { "min": 18, "ideal_min": 24, "ideal_max": 34, "max": 40 },
+        "humidity": { "min": 20, "ideal_min": 45, "ideal_max": 70, "max": 85 },
+        "ph": { "min": 5.2, "ideal_min": 6.0, "ideal_max": 8.0, "max": 8.8 },
+        "rainfall": { "min": 10, "ideal_min": 50, "ideal_max": 150, "max": 240 }
+      },
+      "season_scores": { "Kharif": 1.0, "Rabi": 0.7, "Zaid": 0.8 },
+      "soil_scores": { "Clay": 0.95, "Loamy": 0.85, "Silt": 0.65, "Sandy": 0.7 },
+      "region_scores": { "South": 1.0, "East": 0.7, "Central": 1.0, "North": 0.75, "West": 1.0 }
+    },
+    "Sugarcane": {
+      "ranges": {
+        "N": { "min": 25, "ideal_min": 70, "ideal_max": 120, "max": 150 },
+        "P": { "min": 10, "ideal_min": 25, "ideal_max": 55, "max": 85 },
+        "K": { "min": 20, "ideal_min": 40, "ideal_max": 80, "max": 120 },
+        "temperature": { "min": 18, "ideal_min": 24, "ideal_max": 35, "max": 40 },
+        "humidity": { "min": 30, "ideal_min": 60, "ideal_max": 85, "max": 100 },
+        "ph": { "min": 5.2, "ideal_min": 6.0, "ideal_max": 7.8, "max": 8.5 },
+        "rainfall": { "min": 40, "ideal_min": 120, "ideal_max": 260, "max": 380 }
+      },
+      "season_scores": { "Kharif": 1.0, "Rabi": 0.7, "Zaid": 0.6 },
+      "soil_scores": { "Clay": 0.9, "Loamy": 1.0, "Silt": 0.8, "Sandy": 0.55 },
+      "region_scores": { "South": 1.0, "East": 0.95, "Central": 1.0, "North": 0.7, "West": 0.85 }
+    },
+    "Potato": {
+      "ranges": {
+        "N": { "min": 25, "ideal_min": 70, "ideal_max": 110, "max": 140 },
+        "P": { "min": 15, "ideal_min": 35, "ideal_max": 60, "max": 90 },
+        "K": { "min": 20, "ideal_min": 50, "ideal_max": 90, "max": 130 },
+        "temperature": { "min": 8, "ideal_min": 15, "ideal_max": 24, "max": 30 },
+        "humidity": { "min": 20, "ideal_min": 45, "ideal_max": 70, "max": 88 },
+        "ph": { "min": 4.5, "ideal_min": 5.0, "ideal_max": 6.8, "max": 7.6 },
+        "rainfall": { "min": 10, "ideal_min": 40, "ideal_max": 120, "max": 190 }
+      },
+      "season_scores": { "Kharif": 0.45, "Rabi": 1.0, "Zaid": 0.3 },
+      "soil_scores": { "Clay": 0.7, "Loamy": 1.0, "Silt": 0.9, "Sandy": 0.6 },
+      "region_scores": { "South": 0.6, "East": 0.75, "Central": 0.95, "North": 1.0, "West": 0.75 }
+    },
+    "Tomato": {
+      "ranges": {
+        "N": { "min": 20, "ideal_min": 60, "ideal_max": 100, "max": 130 },
+        "P": { "min": 15, "ideal_min": 35, "ideal_max": 60, "max": 90 },
+        "K": { "min": 20, "ideal_min": 40, "ideal_max": 80, "max": 120 },
+        "temperature": { "min": 14, "ideal_min": 20, "ideal_max": 28, "max": 34 },
+        "humidity": { "min": 25, "ideal_min": 50, "ideal_max": 75, "max": 92 },
+        "ph": { "min": 5.0, "ideal_min": 6.0, "ideal_max": 7.2, "max": 8.0 },
+        "rainfall": { "min": 10, "ideal_min": 40, "ideal_max": 140, "max": 220 }
+      },
+      "season_scores": { "Kharif": 0.75, "Rabi": 0.9, "Zaid": 0.65 },
+      "soil_scores": { "Clay": 0.75, "Loamy": 1.0, "Silt": 0.85, "Sandy": 0.65 },
+      "region_scores": { "South": 1.0, "East": 0.85, "Central": 0.95, "North": 0.8, "West": 0.9 }
+    }
+  }
+}

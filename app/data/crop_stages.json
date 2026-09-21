@@ -1,0 +1,490 @@
+{
+  "crops": {
+    "Rice": {
+      "Kharif": {
+        "stages": {
+          "Sowing": 12,
+          "Vegetative": 46,
+          "Flowering": 32,
+          "Harvest": 20
+        },
+        "pest_risk": {
+          "Sowing": "Low",
+          "Vegetative": "Medium",
+          "Flowering": "High",
+          "Harvest": "Medium"
+        },
+        "irrigation": {
+          "Sowing": { "predicted_water_level": 26, "frequency": "Every 3 days" },
+          "Vegetative": { "predicted_water_level": 58, "frequency": "Every 2 days" },
+          "Flowering": { "predicted_water_level": 72, "frequency": "Daily" },
+          "Harvest": { "predicted_water_level": 15, "frequency": "Stop 2 weeks before" }
+        }
+      },
+      "Rabi": {
+        "stages": {
+          "Sowing": 11,
+          "Vegetative": 42,
+          "Flowering": 28,
+          "Harvest": 18
+        },
+        "pest_risk": {
+          "Sowing": "Low",
+          "Vegetative": "Low",
+          "Flowering": "Medium",
+          "Harvest": "Low"
+        },
+        "irrigation": {
+          "Sowing": { "predicted_water_level": 24, "frequency": "Every 4 days" },
+          "Vegetative": { "predicted_water_level": 50, "frequency": "Every 3 days" },
+          "Flowering": { "predicted_water_level": 64, "frequency": "Every 2 days" },
+          "Harvest": { "predicted_water_level": 14, "frequency": "Stop 10 days before" }
+        }
+      },
+      "Zaid": {
+        "stages": {
+          "Sowing": 10,
+          "Vegetative": 40,
+          "Flowering": 27,
+          "Harvest": 17
+        },
+        "pest_risk": {
+          "Sowing": "Low",
+          "Vegetative": "Medium",
+          "Flowering": "Medium",
+          "Harvest": "Low"
+        },
+        "irrigation": {
+          "Sowing": { "predicted_water_level": 28, "frequency": "Every 2 days" },
+          "Vegetative": { "predicted_water_level": 62, "frequency": "Every 2 days" },
+          "Flowering": { "predicted_water_level": 76, "frequency": "Daily" },
+          "Harvest": { "predicted_water_level": 16, "frequency": "Stop 10 days before" }
+        }
+      }
+    },
+    "Wheat": {
+      "Kharif": {
+        "stages": {
+          "Sowing": 10,
+          "Vegetative": 36,
+          "Flowering": 24,
+          "Harvest": 16
+        },
+        "pest_risk": {
+          "Sowing": "Low",
+          "Vegetative": "Medium",
+          "Flowering": "Medium",
+          "Harvest": "Low"
+        },
+        "irrigation": {
+          "Sowing": { "predicted_water_level": 22, "frequency": "Every 4 days" },
+          "Vegetative": { "predicted_water_level": 46, "frequency": "Every 3 days" },
+          "Flowering": { "predicted_water_level": 60, "frequency": "Every 2 days" },
+          "Harvest": { "predicted_water_level": 13, "frequency": "Stop 10 days before" }
+        }
+      },
+      "Rabi": {
+        "stages": {
+          "Sowing": 10,
+          "Vegetative": 40,
+          "Flowering": 28,
+          "Harvest": 18
+        },
+        "pest_risk": {
+          "Sowing": "Low",
+          "Vegetative": "Low",
+          "Flowering": "Medium",
+          "Harvest": "Low"
+        },
+        "irrigation": {
+          "Sowing": { "predicted_water_level": 20, "frequency": "Every 5 days" },
+          "Vegetative": { "predicted_water_level": 42, "frequency": "Every 4 days" },
+          "Flowering": { "predicted_water_level": 56, "frequency": "Every 3 days" },
+          "Harvest": { "predicted_water_level": 12, "frequency": "Stop 2 weeks before" }
+        }
+      },
+      "Zaid": {
+        "stages": {
+          "Sowing": 9,
+          "Vegetative": 34,
+          "Flowering": 22,
+          "Harvest": 15
+        },
+        "pest_risk": {
+          "Sowing": "Low",
+          "Vegetative": "Medium",
+          "Flowering": "Medium",
+          "Harvest": "Low"
+        },
+        "irrigation": {
+          "Sowing": { "predicted_water_level": 24, "frequency": "Every 3 days" },
+          "Vegetative": { "predicted_water_level": 50, "frequency": "Every 2 days" },
+          "Flowering": { "predicted_water_level": 62, "frequency": "Every 2 days" },
+          "Harvest": { "predicted_water_level": 13, "frequency": "Stop 10 days before" }
+        }
+      }
+    },
+    "Maize": {
+      "Kharif": {
+        "stages": {
+          "Sowing": 10,
+          "Vegetative": 42,
+          "Flowering": 32,
+          "Harvest": 22
+        },
+        "pest_risk": {
+          "Sowing": "Low",
+          "Vegetative": "Medium",
+          "Flowering": "High",
+          "Harvest": "Medium"
+        },
+        "irrigation": {
+          "Sowing": { "predicted_water_level": 24, "frequency": "Every 3 days" },
+          "Vegetative": { "predicted_water_level": 54, "frequency": "Every 2 days" },
+          "Flowering": { "predicted_water_level": 68, "frequency": "Daily" },
+          "Harvest": { "predicted_water_level": 15, "frequency": "Stop 10 days before" }
+        }
+      },
+      "Rabi": {
+        "stages": {
+          "Sowing": 9,
+          "Vegetative": 38,
+          "Flowering": 28,
+          "Harvest": 19
+        },
+        "pest_risk": {
+          "Sowing": "Low",
+          "Vegetative": "Low",
+          "Flowering": "Medium",
+          "Harvest": "Low"
+        },
+        "irrigation": {
+          "Sowing": { "predicted_water_level": 22, "frequency": "Every 4 days" },
+          "Vegetative": { "predicted_water_level": 48, "frequency": "Every 3 days" },
+          "Flowering": { "predicted_water_level": 60, "frequency": "Every 2 days" },
+          "Harvest": { "predicted_water_level": 13, "frequency": "Stop 10 days before" }
+        }
+      },
+      "Zaid": {
+        "stages": {
+          "Sowing": 9,
+          "Vegetative": 39,
+          "Flowering": 29,
+          "Harvest": 20
+        },
+        "pest_risk": {
+          "Sowing": "Low",
+          "Vegetative": "Medium",
+          "Flowering": "High",
+          "Harvest": "Medium"
+        },
+        "irrigation": {
+          "Sowing": { "predicted_water_level": 26, "frequency": "Every 2 days" },
+          "Vegetative": { "predicted_water_level": 58, "frequency": "Every 2 days" },
+          "Flowering": { "predicted_water_level": 72, "frequency": "Daily" },
+          "Harvest": { "predicted_water_level": 15, "frequency": "Stop 1 week before" }
+        }
+      }
+    },
+    "Cotton": {
+      "Kharif": {
+        "stages": {
+          "Sowing": 12,
+          "Vegetative": 50,
+          "Flowering": 35,
+          "Harvest": 25
+        },
+        "pest_risk": {
+          "Sowing": "Low",
+          "Vegetative": "Medium",
+          "Flowering": "High",
+          "Harvest": "Medium"
+        },
+        "irrigation": {
+          "Sowing": { "predicted_water_level": 22, "frequency": "Every 4 days" },
+          "Vegetative": { "predicted_water_level": 48, "frequency": "Every 3 days" },
+          "Flowering": { "predicted_water_level": 64, "frequency": "Every 2 days" },
+          "Harvest": { "predicted_water_level": 14, "frequency": "Stop 2 weeks before" }
+        }
+      },
+      "Rabi": {
+        "stages": {
+          "Sowing": 11,
+          "Vegetative": 46,
+          "Flowering": 32,
+          "Harvest": 22
+        },
+        "pest_risk": {
+          "Sowing": "Low",
+          "Vegetative": "Low",
+          "Flowering": "Medium",
+          "Harvest": "Low"
+        },
+        "irrigation": {
+          "Sowing": { "predicted_water_level": 20, "frequency": "Every 5 days" },
+          "Vegetative": { "predicted_water_level": 44, "frequency": "Every 4 days" },
+          "Flowering": { "predicted_water_level": 58, "frequency": "Every 3 days" },
+          "Harvest": { "predicted_water_level": 12, "frequency": "Stop 2 weeks before" }
+        }
+      },
+      "Zaid": {
+        "stages": {
+          "Sowing": 10,
+          "Vegetative": 44,
+          "Flowering": 30,
+          "Harvest": 20
+        },
+        "pest_risk": {
+          "Sowing": "Low",
+          "Vegetative": "Medium",
+          "Flowering": "High",
+          "Harvest": "Medium"
+        },
+        "irrigation": {
+          "Sowing": { "predicted_water_level": 24, "frequency": "Every 3 days" },
+          "Vegetative": { "predicted_water_level": 54, "frequency": "Every 2 days" },
+          "Flowering": { "predicted_water_level": 68, "frequency": "Daily" },
+          "Harvest": { "predicted_water_level": 14, "frequency": "Stop 10 days before" }
+        }
+      }
+    },
+    "Sugarcane": {
+      "Kharif": {
+        "stages": {
+          "Sowing": 15,
+          "Vegetative": 60,
+          "Flowering": 40,
+          "Harvest": 30
+        },
+        "pest_risk": {
+          "Sowing": "Low",
+          "Vegetative": "Medium",
+          "Flowering": "High",
+          "Harvest": "Medium"
+        },
+        "irrigation": {
+          "Sowing": { "predicted_water_level": 30, "frequency": "Every 3 days" },
+          "Vegetative": { "predicted_water_level": 68, "frequency": "Every 2 days" },
+          "Flowering": { "predicted_water_level": 82, "frequency": "Daily" },
+          "Harvest": { "predicted_water_level": 18, "frequency": "Reduce sharply before harvest" }
+        }
+      },
+      "Rabi": {
+        "stages": {
+          "Sowing": 14,
+          "Vegetative": 56,
+          "Flowering": 36,
+          "Harvest": 28
+        },
+        "pest_risk": {
+          "Sowing": "Low",
+          "Vegetative": "Low",
+          "Flowering": "Medium",
+          "Harvest": "Low"
+        },
+        "irrigation": {
+          "Sowing": { "predicted_water_level": 28, "frequency": "Every 4 days" },
+          "Vegetative": { "predicted_water_level": 62, "frequency": "Every 3 days" },
+          "Flowering": { "predicted_water_level": 76, "frequency": "Every 2 days" },
+          "Harvest": { "predicted_water_level": 17, "frequency": "Reduce before harvest" }
+        }
+      },
+      "Zaid": {
+        "stages": {
+          "Sowing": 13,
+          "Vegetative": 54,
+          "Flowering": 34,
+          "Harvest": 26
+        },
+        "pest_risk": {
+          "Sowing": "Low",
+          "Vegetative": "Medium",
+          "Flowering": "High",
+          "Harvest": "Medium"
+        },
+        "irrigation": {
+          "Sowing": { "predicted_water_level": 32, "frequency": "Every 2 days" },
+          "Vegetative": { "predicted_water_level": 72, "frequency": "Every 2 days" },
+          "Flowering": { "predicted_water_level": 86, "frequency": "Daily" },
+          "Harvest": { "predicted_water_level": 18, "frequency": "Reduce before harvest" }
+        }
+      }
+    },
+    "Potato": {
+      "Kharif": {
+        "stages": {
+          "Sowing": 10,
+          "Vegetative": 35,
+          "Flowering": 25,
+          "Harvest": 15
+        },
+        "pest_risk": {
+          "Sowing": "Low",
+          "Vegetative": "Medium",
+          "Flowering": "Medium",
+          "Harvest": "Low"
+        },
+        "irrigation": {
+          "Sowing": { "predicted_water_level": 20, "frequency": "Every 3 days" },
+          "Vegetative": { "predicted_water_level": 44, "frequency": "Every 2 days" },
+          "Flowering": { "predicted_water_level": 56, "frequency": "Every 2 days" },
+          "Harvest": { "predicted_water_level": 12, "frequency": "Stop 1 week before" }
+        }
+      },
+      "Rabi": {
+        "stages": {
+          "Sowing": 10,
+          "Vegetative": 38,
+          "Flowering": 26,
+          "Harvest": 16
+        },
+        "pest_risk": {
+          "Sowing": "Low",
+          "Vegetative": "Low",
+          "Flowering": "Medium",
+          "Harvest": "Low"
+        },
+        "irrigation": {
+          "Sowing": { "predicted_water_level": 18, "frequency": "Every 4 days" },
+          "Vegetative": { "predicted_water_level": 40, "frequency": "Every 3 days" },
+          "Flowering": { "predicted_water_level": 52, "frequency": "Every 2 days" },
+          "Harvest": { "predicted_water_level": 11, "frequency": "Stop 1 week before" }
+        }
+      },
+      "Zaid": {
+        "stages": {
+          "Sowing": 9,
+          "Vegetative": 32,
+          "Flowering": 23,
+          "Harvest": 14
+        },
+        "pest_risk": {
+          "Sowing": "Low",
+          "Vegetative": "Medium",
+          "Flowering": "Medium",
+          "Harvest": "Low"
+        },
+        "irrigation": {
+          "Sowing": { "predicted_water_level": 22, "frequency": "Every 2 days" },
+          "Vegetative": { "predicted_water_level": 48, "frequency": "Every 2 days" },
+          "Flowering": { "predicted_water_level": 60, "frequency": "Daily" },
+          "Harvest": { "predicted_water_level": 12, "frequency": "Stop 1 week before" }
+        }
+      }
+    },
+    "Tomato": {
+      "Kharif": {
+        "stages": {
+          "Sowing": 8,
+          "Vegetative": 30,
+          "Flowering": 25,
+          "Harvest": 20
+        },
+        "pest_risk": {
+          "Sowing": "Low",
+          "Vegetative": "Medium",
+          "Flowering": "High",
+          "Harvest": "Medium"
+        },
+        "irrigation": {
+          "Sowing": { "predicted_water_level": 18, "frequency": "Every 3 days" },
+          "Vegetative": { "predicted_water_level": 40, "frequency": "Every 2 days" },
+          "Flowering": { "predicted_water_level": 52, "frequency": "Daily" },
+          "Harvest": { "predicted_water_level": 12, "frequency": "Reduce before final picking" }
+        }
+      },
+      "Rabi": {
+        "stages": {
+          "Sowing": 8,
+          "Vegetative": 32,
+          "Flowering": 24,
+          "Harvest": 18
+        },
+        "pest_risk": {
+          "Sowing": "Low",
+          "Vegetative": "Low",
+          "Flowering": "Medium",
+          "Harvest": "Low"
+        },
+        "irrigation": {
+          "Sowing": { "predicted_water_level": 16, "frequency": "Every 4 days" },
+          "Vegetative": { "predicted_water_level": 36, "frequency": "Every 3 days" },
+          "Flowering": { "predicted_water_level": 48, "frequency": "Every 2 days" },
+          "Harvest": { "predicted_water_level": 11, "frequency": "Reduce before final picking" }
+        }
+      },
+      "Zaid": {
+        "stages": {
+          "Sowing": 7,
+          "Vegetative": 28,
+          "Flowering": 23,
+          "Harvest": 18
+        },
+        "pest_risk": {
+          "Sowing": "Low",
+          "Vegetative": "Medium",
+          "Flowering": "High",
+          "Harvest": "Medium"
+        },
+        "irrigation": {
+          "Sowing": { "predicted_water_level": 20, "frequency": "Every 2 days" },
+          "Vegetative": { "predicted_water_level": 44, "frequency": "Every 2 days" },
+          "Flowering": { "predicted_water_level": 56, "frequency": "Daily" },
+          "Harvest": { "predicted_water_level": 12, "frequency": "Reduce before final picking" }
+        }
+      }
+    }
+  },
+  "region_profiles": {
+    "South": {
+      "duration_factor": 1.0,
+      "irrigation_factor": 1.0,
+      "pest_risk_offset": {
+        "Sowing": 0,
+        "Vegetative": 0,
+        "Flowering": 0,
+        "Harvest": 0
+      }
+    },
+    "North": {
+      "duration_factor": 1.08,
+      "irrigation_factor": 0.92,
+      "pest_risk_offset": {
+        "Sowing": 0,
+        "Vegetative": -1,
+        "Flowering": 0,
+        "Harvest": 0
+      }
+    },
+    "East": {
+      "duration_factor": 1.03,
+      "irrigation_factor": 0.95,
+      "pest_risk_offset": {
+        "Sowing": 0,
+        "Vegetative": 1,
+        "Flowering": 1,
+        "Harvest": 0
+      }
+    },
+    "West": {
+      "duration_factor": 0.97,
+      "irrigation_factor": 1.08,
+      "pest_risk_offset": {
+        "Sowing": 0,
+        "Vegetative": 0,
+        "Flowering": 0,
+        "Harvest": 0
+      }
+    },
+    "Central": {
+      "duration_factor": 1.0,
+      "irrigation_factor": 1.02,
+      "pest_risk_offset": {
+        "Sowing": 0,
+        "Vegetative": 0,
+        "Flowering": 0,
+        "Harvest": 0
+      }
+    }
+  }
+}
